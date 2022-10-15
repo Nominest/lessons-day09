@@ -1,0 +1,33 @@
+/* .text-1 {
+    display: inline-block;
+}
+
+.subtext {
+    display: inline-block;
+}
+
+text-2 {
+    display: inline-block;
+} */
+.text-1 {
+    display: flex;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 5px solid red;
+    height: calc(100vh - 20px);
+    width: calc(100vw - 20px);  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+img {
+    margin: 30px;
+
+}
